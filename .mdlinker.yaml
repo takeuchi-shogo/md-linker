@@ -1,0 +1,16 @@
+include:
+  - "**/*.md"
+  - "**/*.mdx"
+exclude:
+  - ".git/**"
+  - "node_modules/**"
+  - "vendor/**"
+  - "testdata/**"
+  - "docs/superpowers/**"
+rules:
+  MDL001: error
+  MDL002: error
+  MDL003: warning
+  MDL004: error
+  MDL006: warning
+  MDL007: error
